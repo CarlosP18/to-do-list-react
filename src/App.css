@@ -106,7 +106,8 @@
   
   .delete-icon {
     margin-right: 5px;
-    color: #fff;
+    color: white;
+    opacity: 0;
   }
 
   .todos-left {
@@ -122,3 +123,9 @@
   .spacing {
     padding-bottom: 30px;
   }
+  .todo-row:hover .icons .delete-icon{
+    color: white;
+    opacity: 1;
+  }
+
+  
